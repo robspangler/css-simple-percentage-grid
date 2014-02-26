@@ -1,6 +1,6 @@
 # Simple Percentage Grid v1.0
 
-Grid frameworks are generally way too bloated. This is a simple 12 column grid, initially based off of 960px with 20px gutters that has been converted to percentages. So, it works in any sized new or pre-existing layout.
+Grid frameworks are generally way too bloated. This is a simple 12 column grid initially based off of 960px with 20px gutters that has been converted to percentages. So, it works in any new or pre-existing layout, of all sizes.
 
 ##All You Need in 16 Lines of CSS
 
@@ -23,7 +23,7 @@ Grid frameworks are generally way too bloated. This is a simple 12 column grid, 
 .row .twelve { width: 97.916666666%; }
 ```
 
-##Example: Basic HTML Markup
+##Basic HTML Markup
 
 ```html
 <div class="row">
