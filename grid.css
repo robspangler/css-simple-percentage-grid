@@ -1,0 +1,23 @@
+/*
+ * Simple Percentage Grid
+ * Description: 12 columns initially based off of 960px with 20px gutters
+ * Author: Robert Spangler (@robertspangler)
+ *
+ */
+.row { clear: both; }
+.row:before, .row:after {content: " "; display: table; } .row:after { clear: both; } /*clearfix*/
+ 
+.row .column  { padding-left: 1.041666666%; padding-right: 1.041666666%; /*gutter*/ float: left; }
+.row .column.right  { float: right; /*good if you have a sidebar and need to skip a column & float it right*/ }
+.row .one { width: 6.25%; }
+.row .two { width: 14.583333333%; }
+.row .three { width: 22.916666666%; }
+.row .four { width: 31.25%; }
+.row .five { width: 39.583333333%; }
+.row .six { width: 47.916666666%; }
+.row .seven { width: 56.25%; }
+.row .eight { width: 64.583333333%; }
+.row .nine { width: 72.916666666%; }
+.row .ten { width: 81.25%; }
+.row .eleven { width: 89.583333333%; }
+.row .twelve { width: 97.916666666%; }
