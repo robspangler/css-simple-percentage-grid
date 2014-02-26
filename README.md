@@ -1,4 +1,4 @@
-# SnapPoint v1.0
+# Simple Percentage Grid v1.0
 
 Grid frameworks are generally way too bloated. This is a simple 12 column grid, initially based off of 960px with 20px gutters that has been converted to percentages. So, it works in any sized new or pre-existing layout.
 
