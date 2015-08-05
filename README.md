@@ -5,6 +5,13 @@ Grid frameworks are generally way too bloated. This is a simple 12 column percen
 ##All You Need in 16 Lines of CSS
 
 ```css
+/* initial border-box declaration (include this, if not already declared)
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+ */
+```
+
+```css
 .row { clear: both; }
 .row:before, .row:after {content: " "; display: table; } .row:after { clear: both; } /*clearfix*/
 .row .column  { padding-left: 20px; padding-right: 20px; /*gutter*/ float: left; }
