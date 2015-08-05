@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Simple Percentage Grid Framework</title>
+
+	<link rel="stylesheet" href="grid-content-box.css">
+	
+	<style>
+	
+		/* Demo's Presentation Only */
+		body { font: 200 16px/1.5 'Helvetica Neue', sans-serif; }
+		
+		h1.presentation { padding: 15px; margin: 20px 0 15px; background-color: #d9edf7; color: #31708f; border: 1px solid #bce8f1; text-align: center; }
+		.usage { margin-bottom: 60px; }
+
+		.usage.list .column { background-color: #F00; color: #fff; box-shadow: inset 1px 1px 0 #fff; text-align: center; }
+
+		.usage.layout h1 { margin: 0; padding: 0; }
+		.usage.layout header { padding: 20px; background-color: #eee; }
+		.usage.layout nav { text-align: right; }
+		.usage.layout nav ul { float: right; margin: 0; padding: 0; }
+		.usage.layout nav ul li { margin: 0; padding: 0; list-style: none; float: left; }
+		.usage.layout nav a { padding: 0 20px; }
+		.usage.layout aside .widget { padding: 0 0 20px; }
+		.usage.layout footer { padding: 20px; background-color: #333; color: #fff; }
+		.usage.layout footer a { color: #fff; }
+		.usage.layout footer aside { text-align: right; }
+		.usage.layout footer aside .heart { color: #f00; }
+		
+	</style>
+
+</head>
+
+<body>
+			
+	<h1 class="presentation">Sample Layout</h1>
+	<section class="usage layout">
+	
+		<header class="row">
+			<div class="column three">
+				<h1>Your Brand Name</h1>
+			</div>
+			
+			<nav class="column nine">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<section class="row">
+		
+			<section class="column eight">
+				<h2>What is Lorem Ipsum?</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				<div class="row">
+					<div class="column six">
+						<h3>Column 1</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus diam nisl, sagittis quis tempus vel, aliquam euismod lectus. Mauris ipsum magna, pretium nec elementum a, pulvinar nec diam. Vivamus sed elit egestas, congue ipsum sit amet, ultricies nunc. Aliquam scelerisque mi eu leo sagittis, at porta leo dignissim. Maecenas ultrices mattis diam ac accumsan. Suspendisse potenti. Quisque tempor neque ac enim dapibus semper vitae a nulla.</p>
+					</div>
+					
+					<div class="column six">
+						<h3>Column 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus diam nisl, sagittis quis tempus vel, aliquam euismod lectus. Mauris ipsum magna, pretium nec elementum a, pulvinar nec diam. Vivamus sed elit egestas, congue ipsum sit amet, ultricies nunc. Aliquam scelerisque mi eu leo sagittis, at porta leo dignissim. Maecenas ultrices mattis diam ac accumsan. Suspendisse potenti. Quisque tempor neque ac enim dapibus semper vitae a nulla.</p>
+					</div>
+				</div>
+				<h2>Why Do We Use It?</h2>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+				<p>Source: http://lipsum.com/</p>
+			</section>
+			
+			<aside class="column three right">
+				<div class="widget">
+					<h4>Widget Title</h4>
+					<p>Widget</p>
+				</div>
+	
+				<div class="widget">
+					<h4>Widget Title</h4>
+					<p>Widget</p>
+				</div>
+			</aside>
+		
+		</section>
+
+		<footer class="row">
+	
+			<div class="column six">
+				<p>&copy;2014 Your Brand Name Enterprises, Inc.</p>
+			</div>
+			
+			<aside class="column six">
+				<p>Made with <span class="heart">&hearts;</span> from <a href="https://twitter.com/robertspangler">@robertspangler</a></p>
+			</aside>
+	
+		</footer>
+
+	</section><!--/.usage.layout-->
+
+
+	<h1 class="presentation">Grid Listing</h1>
+	<section class="usage list">
+		<div class="row">
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+		</div>
+		<div class="row">
+			<div class="column two">2</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+		</div>
+		<div class="row">
+			<div class="column three">3</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+		</div>
+		<div class="row">
+			<div class="column four">4</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+		</div>
+		<div class="row">
+			<div class="column five">5</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+		</div>
+		<div class="row">
+			<div class="column six">6</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+		</div>
+		<div class="row">
+			<div class="column seven">7</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+		</div>
+		<div class="row">
+			<div class="column eight">8</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+		</div>
+		<div class="row">
+			<div class="column nine">9</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+		</div>
+		<div class="row">
+			<div class="column ten">10</div>
+			<div class="column one">1</div>
+			<div class="column one">1</div>
+		</div>
+		<div class="row">
+			<div class="column eleven">11</div>
+			<div class="column one">1</div>
+		</div>
+		<div class="row">
+			<div class="column twelve">12</div>
+		</div>
+	</section><!--/.usage.list-->
+
+
+</body>
+</html>

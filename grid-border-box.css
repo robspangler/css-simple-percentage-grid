@@ -1,0 +1,31 @@
+/*
+ * Simple Percentage Grid (Border-Box)
+ * Version: 2.0
+ * Description: 12 columns with 15px gutters
+ * Author: Robert Spangler (@robertspangler)
+ *
+ */
+
+/* initial border-box declaration (include this, if not already declared) */
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+ 
+.row { clear: both; }
+.row:before, .row:after {content: " "; display: table; } .row:after { clear: both; } /*clearfix*/
+
+.row .column  { padding-left: 15px; padding-right: 15px; /*gutter*/ float: left; }
+.row .column.right  { float: right; /*good for asides that skip column(s) for extra spacing*/ }
+
+.row .one { width: 8.333333333%; }
+.row .two { width: 16.666666666%; }
+.row .three { width: 25%; }
+.row .four { width: 33.333333333%; }
+.row .five { width: 41.666666666%; }
+.row .six { width: 50%; }
+.row .seven { width: 58.333333333; }
+.row .eight { width: 66.666666666%; }
+.row .nine { width: 75%; }
+.row .ten { width: 83.333333333%; }
+.row .eleven { width: 91.666666666%; }
+.row .twelve { width: 100%; }

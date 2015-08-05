@@ -7,20 +7,20 @@ Grid frameworks are generally way too bloated. This is a simple 12 column grid i
 ```css
 .row { clear: both; }
 .row:before, .row:after {content: " "; display: table; } .row:after { clear: both; } /*clearfix*/
-.row .column  { padding-left: 1.041666666%; padding-right: 1.041666666%; /*gutter*/ float: left; }
+.row .column  { padding-left: 20px; padding-right: 20px; /*gutter*/ float: left; }
 .row .column.right  { float: right; /*good for asides that skip column(s) for extra spacing*/ }
-.row .one { width: 6.25%; }
-.row .two { width: 14.583333333%; }
-.row .three { width: 22.916666666%; }
-.row .four { width: 31.25%; }
-.row .five { width: 39.583333333%; }
-.row .six { width: 47.916666666%; }
-.row .seven { width: 56.25%; }
-.row .eight { width: 64.583333333%; }
-.row .nine { width: 72.916666666%; }
-.row .ten { width: 81.25%; }
-.row .eleven { width: 89.583333333%; }
-.row .twelve { width: 97.916666666%; }
+.row .one { width: 8.333333333%; }
+.row .two { width: 16.666666666%; }
+.row .three { width: 25%; }
+.row .four { width: 33.333333333%; }
+.row .five { width: 41.666666666%; }
+.row .six { width: 50%; }
+.row .seven { width: 58.333333333; }
+.row .eight { width: 66.666666666%; }
+.row .nine { width: 75%; }
+.row .ten { width: 83.333333333%; }
+.row .eleven { width: 91.666666666%; }
+.row .twelve { width: 100%; }
 ```
 
 ##Basic HTML Markup
@@ -34,9 +34,13 @@ Grid frameworks are generally way too bloated. This is a simple 12 column grid i
 
 ##Demo
 
-http://robspangler.com/git/css-simple-percentage-grid/demo.html
+http://robspangler.com/git/css-simple-percentage-grid/demo-border-box.html
 
 ## Changelog
+
+### Version 2.0 (2/26/2014)
+* Converted to "border-box" box-sizing (see: http://www.paulirish.com/2012/box-sizing-border-box-ftw/)
+* Legacy "content-box" preserved
 
 ### Version 1.0 (2/26/2014)
 * Initial release
